@@ -9,6 +9,17 @@ binaries=(
 	argon/mas/mas
 	tree
 	nodebrew
+	ctags
+	asciinema
+	rcmdnk/file/brew-file
+	carthage
+	ctags
+	fasd
+	highlight
+	htop
+	jq
+	speedtest_cli
+	tree
 )
 echo "installing binaries..."
 brew install ${binaries[@]}
